@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="options">
+        <item>vpp</item>
+        <item>aie</item>
+        <item>cnr</item>
+        <item>qbr</item>
+        <item>cade</item>
+        <item>frc</item>
+    </string-array>
+
+    <string-array name="vpp">
+        <item>vpp.mode</item>
+    </string-array>
+
+    <string-array name="aie">
+        <item>vpp-aie.mode</item>
+        <item>vpp-aie.hue-mode</item>
+        <item>vpp-aie.cade-level</item>
+        <item>vpp-aie.ltm-level</item>
+    </string-array>
+
+    <string-array name="cnr">
+        <item>vpp-cnr.mode</item>
+        <item>vpp-cnr.level</item>
+    </string-array>
+
+    <string-array name="qbr">
+        <item>vpp-qbr.mode</item>
+    </string-array>
+
+    <string-array name="cade">
+        <item>vpp-cade.mode</item>
+        <item>vpp-cade.cade-level</item>
+        <item>vpp-cade.contrast</item>
+        <item>vpp-cade.saturation</item>
+    </string-array>
+
+    <string-array name="frc">
+        <item>vpp-frc.mode</item>
+    </string-array>
+
+</resources>

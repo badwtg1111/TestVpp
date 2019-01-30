@@ -55,7 +55,7 @@ public class MediaCodecWrapper {
     /**
      * The {@link MediaCodec} that is managed by this class.
      */
-    private MediaCodec mDecoder;
+    public MediaCodec mDecoder;
 
     // References to the internal buffers managed by the codec. The codec
     // refers to these buffers by index, never by reference so it's up to us
@@ -81,8 +81,8 @@ public class MediaCodecWrapper {
         mInputBuffers = codec.getInputBuffers();
         mOutputBuffers = codec.getOutputBuffers();
         mOutputBufferInfo = new MediaCodec.BufferInfo[mOutputBuffers.length];
-        mAvailableInputBuffers = new ArrayDeque<>(mOutputBuffers.length);
-        mAvailableOutputBuffers = new ArrayDeque<>(mInputBuffers.length);
+        mAvailableInputBuffers = new ArrayDeque<>(mInputBuffers.length);
+        mAvailableOutputBuffers = new ArrayDeque<>(mOutputBuffers.length);
     }
 
     /**

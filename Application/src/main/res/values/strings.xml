@@ -19,4 +19,18 @@
         &#169; copyright 2008, Blender Foundation / www.bigbuckbunny.org
     </string>
     <string name="play">Play</string>
+
+    <string name="vpp_mode">VPP 开关</string>
+    <string name="vpp_cade_mode">内容自适应细节增强 开关</string>
+    <string name="vpp_cade_level">内容自适应细节增强 级别</string>
+    <string name="vpp_cade_contrast">内容自适应细节增强 对比度</string>
+    <string name="vpp_cade_satuation">内容自适应细节增强 饱和度</string>
+    <string name="qbr_mode">量化噪声的去除 开关</string>
+    <string name="cnr_mode">压缩降噪 开关</string>
+    <string name="cnr_level">压缩降噪 级别</string>
+    <string name="aie_mode">自适应图像增强 开关</string>
+    <string name="aie_hue_mode">色调适应 开关</string>
+    <string name="aie_cade_level">AIE内容自适应细节增强 级别</string>
+    <string name="aie_ltm_level">局部色调映射 级别</string>
+    <string name="frc_mode">基于运动估计运动补偿的帧速率转换</string>
 </resources>
